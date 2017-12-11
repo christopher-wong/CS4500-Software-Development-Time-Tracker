@@ -1,0 +1,19 @@
+# no dot files
+.idea/
+.nyc_output
+
+# ignore these directories
+node_modules/
+dist/
+coverage/
+
+# no stray log files
+log.log
+
+yarn-error.log
+
+# no package lock files
+package-lock.json
+
+# no local config files
+src/server/env.vars.local*

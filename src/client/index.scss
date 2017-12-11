@@ -1,0 +1,69 @@
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/print";
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/type";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/labels";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/tables";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/pagination";
+
+@import "~flexboxgrid-sass/flexboxgrid.scss";
+
+@import "~bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+$font-family-base: 'SF Pro';
+$brand-primary:         #0696D7 !default;
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #F0AD4F !default;
+$brand-danger:          #D9534F !default;
+
+/* Define the "system" font family */
+@font-face {
+  font-family: system;
+  font-style: normal;
+  font-weight: 300;
+  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+};
+
+html {
+  line-height: 1.15;
+  font-size: 16px;
+}
+
+body {
+  font-family: "system";
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  &:hover, &:active, &:visited, &:link, &:focus {
+    text-decoration: none;
+  }
+}
+
+a[disabled], a[disabled]:hover {
+  pointer-events: none;
+  color: $gray !important;
+}

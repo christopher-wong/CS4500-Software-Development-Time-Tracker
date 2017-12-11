@@ -1,0 +1,5 @@
+--require babel-register
+--require test/setup.js
+--exit
+./src/**/*int.js
+./src/**/*spec.js

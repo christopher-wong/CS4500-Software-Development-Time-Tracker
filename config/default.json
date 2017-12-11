@@ -1,0 +1,15 @@
+{
+  "mongodb": {
+    "db": "service-learning",
+    "host": "127.0.0.1",
+    "port": 27017
+  },
+  "express": {
+    "port": 3001,
+    "host": "localhost"
+  },
+  "static": {
+    "dirName": "./src/client",
+    "productConfigDir": "./staticData/"
+  }
+}

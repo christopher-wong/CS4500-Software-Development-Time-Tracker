@@ -1,0 +1,20 @@
+{
+    "include": [
+      "src/**/*.js"
+    ],
+    "exclude": [
+      "src/**/*.spec.js",
+      "src/**/*.model.js",
+      "src/client/index.js",
+      "src/server/userAPI googleAuthController.js",
+      "src/server/**/*Controller.js",
+      "src/client/containers/ProfilePage/*.js"
+    ],
+    "all": true,
+    "report-dir": "./coverage",
+    "reporter": [
+      "lcov",
+      "text-summary",
+      "html"
+    ]
+}
